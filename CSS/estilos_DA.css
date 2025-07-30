@@ -1,0 +1,69 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5efe6; /* color crema claro */
+  margin: 0;
+  padding: 0;
+  color: #4b2e2e;
+}
+
+
+header {
+  background-color: #a0522d;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+
+.descripcion {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fff3e0;
+}
+
+.producto {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 30%;
+  text-align: center;
+  transition: background-color 0.3s;
+  padding: 15px;
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.producto:hover {
+  background-color: #ffe0b2;
+}
+
+
+.horarios {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0e5d8;
+}
+
+footer {
+  background-color: #a0522d;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
